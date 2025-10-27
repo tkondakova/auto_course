@@ -29,3 +29,4 @@ class PersonInfo:
         values = list(element_count.values())
         values.sort(reverse=True)
         return (1337*self.age*(sum(values[:3])))
+
